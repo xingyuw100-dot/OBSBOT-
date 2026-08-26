@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OBSBOT Product Portfolio Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<header>
+<h1>OBSBOT AI Camera Portfolio Dashboard</h1>
+<p>Product Matrix & Competitive Positioning Dashboard</p>
+</header>
+
+<section class="stats" id="stats"></section>
+
+<section class="filters">
+<input id="search" placeholder="搜索产品 / 关键词 / 竞品">
+<select id="priceFilter">
+<option value="">全部价格</option>
+<option value="low">$0-100</option>
+<option value="mid">$100-500</option>
+<option value="high">$500+</option>
+</select>
+</section>
+
+<section id="products" class="grid"></section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
